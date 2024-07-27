@@ -16,8 +16,6 @@ import { ReactiveConfig } from '@hyperzlib/node-reactive-config';
 const config = new ReactiveConfig<Partial<TestConfig>>(__dirname + '/config/test-config.json', {});
 config.on('data', (value) => {
     console.log(value);
-
-     
 });
 
 // ...
