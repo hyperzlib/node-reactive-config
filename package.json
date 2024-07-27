@@ -1,0 +1,36 @@
+{
+  "name": "node-reactive-config",
+  "version": "1.0.0",
+  "description": "A reactive (hot-reload) config for nodejs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperzlib/node-reactive-config.git"
+  },
+  "keywords": [
+    "Config",
+    "Hot reload",
+    "Reactive"
+  ],
+  "author": "Hyperzlib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyperzlib/node-reactive-config/issues"
+  },
+  "homepage": "https://github.com/hyperzlib/node-reactive-config#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "json5": "^2.2.3",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4",
+    "yaml": "^2.5.0"
+  },
+  "dependencies": {
+    "chokidar": "^3.6.0"
+  }
+}
