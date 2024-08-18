@@ -9,7 +9,7 @@ async function main() {
     config.on('data', (value) => {
         console.log(value);
 
-        config.destory();
+        config.destroy();
     });
 }
 

@@ -125,7 +125,7 @@ export class ReactiveConfig<T extends {}> {
     /**
      * Destroy the config instance
      */
-    public async destory() {
+    public async destroy() {
         this.fileWatcher?.close();
         this.eventEmitter.removeAllListeners();
     }

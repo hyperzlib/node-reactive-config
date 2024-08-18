@@ -1,6 +1,6 @@
 {
   "name": "@hyperzlib/node-reactive-config",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A reactive (hot-reload) config for nodejs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
